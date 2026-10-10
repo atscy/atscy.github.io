@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="المستشار السيبراني - خدمات التوعية الأمنية وحماية الأنظمة">
+    <title>المستشار السيبراني | @at_scy</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛡️</text></svg>">
+</head>
+<body class="ar">
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="logo">
+            <span class="neon-text">@at_scy</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about" data-ar="نبذة" data-en="About">نبذة</a></li>
+            <li><a href="#services" data-ar="الخدمات" data-en="Services">الخدمات</a></li>
+            <li><a href="#projects" data-ar="المشاريع" data-en="Projects">المشاريع</a></li>
+            <li><a href="#contact" data-ar="تواصل" data-en="Contact">تواصل</a></li>
+        </ul>
+        <div class="nav-controls">
+            <button id="lang-toggle" class="btn-icon" aria-label="Toggle Language">
+                <i class="fas fa-globe"></i> <span id="lang-label">EN</span>
+            </button>
+            <button class="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="hero-section">
+        <div class="hero-content">
+            <div class="terminal-badge" data-ar="> النظام آمن_" data-en="> System Secure_">> النظام آمن_</div>
+            <h1 class="glitch" data-ar="المستشار السيبراني" data-en="Cyber Advisor">المستشار السيبراني</h1>
+            <p class="subtitle" data-ar="أمن سيبراني | توعية رقمية | تطوير أدوات أمنية" data-en="Cybersecurity | Digital Awareness | Sec-Tools Dev">أمن سيبراني | توعية رقمية | تطوير أدوات أمنية</p>
+            <div class="cta-buttons">
+                <a href="#services" class="btn btn-primary" data-ar="استكشف الخدمات" data-en="Explore Services">استكشف الخدمات</a>
+                <a href="#contact" class="btn btn-outline" data-ar="تواصل معي" data-en="Contact Me">تواصل معي</a>
+            </div>
+        </div>
+        <div class="cyber-grid"></div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <h2 class="section-title"><span class="highlight">#</span> <span data-ar="من أنا" data-en="Who am I">من أنا</span></h2>
+        <div class="about-card glass-card">
+            <div class="about-text">
+                <p data-ar="مهتم بمجال الأمن السيبراني والتوعية الرقمية. أسعى لتعزيز الوعي الأمني في العالم العربي وتقديم إرشادات لحماية الحسابات والأنظمة. أعمل باستمرار على تطوير مهاراتي في أساسيات اختبار الاختراق الأخلاقي والبرمجة لتطوير أدوات أمنية فعالة." 
+                   data-en="Passionate about cybersecurity and digital awareness. I aim to enhance security awareness in the Arab world and provide guidance on protecting accounts and systems. I constantly develop my skills in ethical hacking basics and programming to build effective security tools.">
+                   مهتم بمجال الأمن السيبراني والتوعية الرقمية. أسعى لتعزيز الوعي الأمني في العالم العربي وتقديم إرشادات لحماية الحسابات والأنظمة. أعمل باستمرار على تطوير مهاراتي في أساسيات اختبار الاختراق الأخلاقي والبرمجة لتطوير أدوات أمنية فعالة.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="container">
+        <h2 class="section-title"><span class="highlight">#</span> <span data-ar="الخدمات" data-en="Services">الخدمات</span></h2>
+        <p class="note" data-ar="ملاحظة: بعض الخدمات قابلة للتخصيص أو الإخفاء عبر الإعدادات." data-en="Note: Some services can be customized or hidden via settings.">ملاحظة: بعض الخدمات قابلة للتخصيص أو الإخفاء عبر الإعدادات.</p>
+        <div class="grid" id="services-grid">
+            <!-- Populated by JS based on config.js -->
+        </div>
+    </section>
+
+    <!-- Projects Gallery -->
+    <section id="projects" class="container">
+        <h2 class="section-title"><span class="highlight">#</span> <span data-ar="معرض المشاريع" data-en="Projects Gallery">معرض المشاريع</span></h2>
+        <div class="grid">
+            <div class="glass-card project-card">
+                <div class="project-status" data-ar="مثال تجريبي" data-en="Demo Example">مثال تجريبي</div>
+                <h3 data-ar="أداة فحص المنافذ" data-en="Port Scanner Tool">أداة فحص المنافذ</h3>
+                <p data-ar="سكربت بايثون بسيط لفحص المنافذ المفتوحة في الشبكة المحلية." data-en="A simple Python script to scan open ports in a local network.">سكربت بايثون بسيط لفحص المنافذ المفتوحة في الشبكة المحلية.</p>
+                <div class="tags"><span>Python</span><span>Network</span></div>
+            </div>
+            <div class="glass-card project-card">
+                <div class="project-status" data-ar="مثال تجريبي" data-en="Demo Example">مثال تجريبي</div>
+                <h3 data-ar="مولد كلمات المرور" data-en="Password Generator">مولد كلمات المرور</h3>
+                <p data-ar="تطبيق ويب خفيف لتوليد كلمات مرور معقدة وآمنة." data-en="A lightweight web app to generate complex and secure passwords.">تطبيق ويب خفيف لتوليد كلمات مرور معقدة وآمنة.</p>
+                <div class="tags"><span>HTML/JS</span><span>Security</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lab / Articles Section -->
+    <section id="lab" class="container">
+        <h2 class="section-title"><span class="highlight">#</span> <span data-ar="المختبر والمقالات" data-en="Lab & Articles">المختبر والمقالات</span></h2>
+        <div class="grid">
+            <article class="glass-card article-card">
+                <h3 data-ar="كيف تحمي حساباتك من الاختراق؟" data-en="How to protect your accounts?">كيف تحمي حساباتك من الاختراق؟</h3>
+                <p data-ar="خطوات أساسية لتفعيل المصادقة الثنائية وتجنب الهندسة الاجتماعية." data-en="Basic steps to enable 2FA and avoid social engineering.">خطوات أساسية لتفعيل المصادقة الثنائية وتجنب الهندسة الاجتماعية.</p>
+                <a href="#" class="read-more" data-ar="اقرأ المزيد ←" data-en="Read More →">اقرأ المزيد ←</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container">
+        <h2 class="section-title"><span class="highlight">#</span> <span data-ar="المهارات والتقنيات" data-en="Skills & Technologies">المهارات والتقنيات</span></h2>
+        <div class="skills-flex">
+            <span class="skill-tag"><i class="fas fa-shield-alt"></i> <span data-ar="أساسيات الأمن السيبراني" data-en="Cybersecurity Basics">أساسيات الأمن السيبراني</span></span>
+            <span class="skill-tag"><i class="fab fa-python"></i> Python (تطوير الأدوات)</span>
+            <span class="skill-tag"><i class="fas fa-code"></i> HTML / CSS / JS</span>
+            <span class="skill-tag"><i class="fas fa-robot"></i> <span data-ar="الذكاء الاصطناعي في التطوير" data-en="AI in Development">الذكاء الاصطناعي في التطوير</span></span>
+            <span class="skill-tag"><i class="fas fa-network-wired"></i> <span data-ar="أساسيات الشبكات" data-en="Networking Basics">أساسيات الشبكات</span></span>
+        </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <footer id="contact" class="footer-section">
+        <div class="container text-center">
+            <h2 class="section-title justify-center"><span class="highlight">#</span> <span data-ar="تواصل معي" data-en="Contact Me">تواصل معي</span></h2>
+            <div id="contact-links" class="contact-links">
+                <!-- Populated by JS -->
+            </div>
+            
+            <div class="legal-notice">
+                <i class="fas fa-exclamation-triangle highlight"></i>
+                <p data-ar="إخلاء مسؤولية: جميع الاختبارات والمراجعات الأمنية تتم حصراً بعد الحصول على إذن كتابي صريح، وعلى الأنظمة المملوكة للعميل أو المصرح باختبارها. لا نقدم أي خدمات لاختراق حسابات أو أنظمة غير مصرح بها." 
+                   data-en="Disclaimer: All security tests and reviews are conducted exclusively after obtaining explicit written permission, and only on systems owned by the client or authorized for testing. We do not offer services to hack unauthorized accounts or systems.">
+                    إخلاء مسؤولية: جميع الاختبارات والمراجعات الأمنية تتم حصراً بعد الحصول على إذن كتابي صريح، وعلى الأنظمة المملوكة للعميل أو المصرح باختبارها. لا نقدم أي خدمات لاختراق حسابات أو أنظمة غير مصرح بها.
+                </p>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 @at_scy - <span data-ar="المستشار السيبراني" data-en="Cyber Advisor">المستشار السيبراني</span>. <span data-ar="الاستخدام المسؤول فقط." data-en="Responsible use only.">الاستخدام المسؤول فقط.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
